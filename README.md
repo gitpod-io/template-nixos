@@ -16,7 +16,7 @@ Click the above "Open in Gitpod" button to start a new workspace. Once you're re
 
 ### An existing project
 
-To get started with NixOS on Gitpod, copy the contents of this foler to your own project. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
+To get started with NixOS on Gitpod, copy the contents of this folder to your own project. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
 
 ## Notes & caveats
 
