@@ -1,16 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: |
-      mkdir -p /home/gitpod/.config/nix
-      echo 'sandbox = false' >> /home/gitpod/.config/nix/nix.conf
-  - name: perf
-    command: |
-      htop
-  # - name: vm - ssh
-  #   command: |
-  #     make ssh
-  - name: vm - console
+  - name: NixOS Shell
     command: |
       make start
 
