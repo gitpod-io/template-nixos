@@ -3,7 +3,6 @@
   system.stateVersion = "22.11";
 
   networking.firewall.enable = false;
-  # config.networking.nftables.enable =  false;
 
   # Not rootless
   virtualisation.docker = {
