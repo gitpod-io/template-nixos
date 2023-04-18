@@ -22,4 +22,8 @@ To get started with NixOS on Gitpod, copy the contents of this folder to your ow
 
 Host `/workspace` dir is mounted inside guest, docker is installed and user-groups are mapped.
 
+You can press `Ctrl + a` and then `x` to terminate/exit NixOS. You may run `make start` to restart it.
+
+NixOS is configured as per [./configuration.nix](./configuration.nix), you can modify it as needed.
+
 See also: [An opinionated guide for developers getting things done using the nix ecosystem](https://nix.dev/).
