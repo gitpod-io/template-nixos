@@ -8,9 +8,7 @@ tasks:
 ports:
   - port: 2222
     onOpen: ignore
-  - port: 8022
-    onOpen: ignore
-  - port: 8088
+  - port: 8000-9000
     onOpen: ignore
 
 vscode:
